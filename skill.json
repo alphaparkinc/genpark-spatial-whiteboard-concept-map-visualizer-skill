@@ -1,0 +1,38 @@
+{
+  "name": "genpark-spatial-whiteboard-concept-map-visualizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Spatial whiteboard concept mapper connecting fragmented thoughts into structured visual knowledge webs.",
+  "author": "genpark",
+  "category": "visual-pkm",
+  "tags": [
+    "spatial-whiteboard",
+    "heptabase",
+    "concept-mapping",
+    "visual-notes",
+    "knowledge-graph"
+  ],
+  "inputs": {
+    "project_domain": {
+      "type": "string"
+    },
+    "card_notes_count": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "whiteboard_id": {
+      "type": "string"
+    },
+    "spatial_cards_placed_count": {
+      "type": "integer"
+    },
+    "concept_relationship_edges_connected": {
+      "type": "integer"
+    },
+    "interactive_canvas_share_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
